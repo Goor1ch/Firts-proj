@@ -10,9 +10,10 @@ body{
 .navbar {
 background: rgb(255, 255, 255) ;
 padding: 1em;
+
     .logo {
         text-decoration: none;
-
+        
     }
     nav{
         display: none;
@@ -21,6 +22,7 @@ padding: 1em;
     .container {
         display: flex;
         place-content: space-between;
+        text-align: center;
     }
 
    
@@ -43,19 +45,22 @@ section {
     padding: 5em 2em;
 }
 
+
 .hero {
     text-align: center;
+    background-image: url('../Images/header-bg.svg');
 }
 
 .mid-col{
     .subhead{
         text-transform: uppercase;
         font-weight: bold;
-        color: rgb(88, 88, 88);
+        color: rgb(255, 255, 255);
         letter-spacing: .3em;
     }
     h1{
         font-size: 96px;
+        color: white;
     }
     .mid-button-booktable{
         background: var(--primary-color);
@@ -68,11 +73,32 @@ section {
     }
     .mid-button{
         background: none;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
         padding: .6em 1.3em;
         font-size: 1.4em;
         border-radius: 5px;
         border-color: white;
     }
+}
+
+.left-col{
+    color: white;
+}
+
+.pg3{
+    background-image: url('/Images/bg-pg3.svg');
+    p{
+        color: white;
+    }
+}
+
+.pg5{
+    background-image: url('/Images/specialty\'s-bg.svg');
+    color: white;
+}
+
+.pg7{
+    background-image: url('/Images/bg-pg3.svg');
+    color: white;
 }

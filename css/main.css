@@ -26,6 +26,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+  text-align: center;
 }
 
 .navbar .mobile-menu {
@@ -48,17 +49,19 @@ section {
 
 .hero {
   text-align: center;
+  background-image: url("../Images/header-bg.svg");
 }
 
 .mid-col .subhead {
   text-transform: uppercase;
   font-weight: bold;
-  color: #585858;
+  color: white;
   letter-spacing: .3em;
 }
 
 .mid-col h1 {
   font-size: 96px;
+  color: white;
 }
 
 .mid-col .mid-button-booktable {
@@ -73,11 +76,33 @@ section {
 
 .mid-col .mid-button {
   background: none;
-  color: black;
+  color: white;
   text-decoration: none;
   padding: .6em 1.3em;
   font-size: 1.4em;
   border-radius: 5px;
   border-color: white;
+}
+
+.left-col {
+  color: white;
+}
+
+.pg3 {
+  background-image: url("/Images/bg-pg3.svg");
+}
+
+.pg3 p {
+  color: white;
+}
+
+.pg5 {
+  background-image: url("/Images/specialty's-bg.svg");
+  color: white;
+}
+
+.pg7 {
+  background-image: url("/Images/bg-pg3.svg");
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

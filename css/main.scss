@@ -39,6 +39,7 @@ ul{
     list-style-type: none;
     margin: 1 em;
     padding: 0;
+    
 }
 
 section {
@@ -54,6 +55,7 @@ section {
     text-align: center;
 }
 
+//корректировка дизайна главной страницы: заголовка и кнопок
 .mid-col{
     .subhead{
         text-transform: uppercase;
@@ -106,6 +108,7 @@ section {
     color: white;
 }
 
+//корректировка "обратной связи"
 .contact {
 
     input, textarea {
@@ -128,6 +131,7 @@ section {
     }
 }
 
+//корректировка размера карты
 iframe{
     width: 100%;
     height: 300px;
@@ -169,6 +173,7 @@ nav{
 }
 */
 
+//расстановка навигационной панели
 .navbar{
     nav{
     color: white;
@@ -188,4 +193,50 @@ nav{
         order: 1;
     }
 }
+}
+
+//расстановка главной панели
+.hero{
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .mid-col{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;        
+            .pic1{
+              width: 200% ;
+             color: white;
+                }  
+        }
+        .left-col{
+            display: flex;
+            order: -1;
+            align-self: flex-start;
+            writing-mode: vertical-rl;
+        }
+        .right-col{
+            display: flex;
+            align-self: flex-start;
+            flex-direction: column;
+            align-content: flex-end;
+            a{
+                display: flex;
+                
+                .pic1{
+                    
+                }
+                .pic2{
+                   
+                   
+                }
+                .pic3{
+                    
+                    
+                }
+            }
+            
+        }
+    }
 }

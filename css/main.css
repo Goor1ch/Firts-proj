@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background: white;
+  color: white;
   padding: 1em;
 }
 
@@ -17,14 +17,7 @@ body {
   text-decoration: none;
 }
 
-.navbar nav {
-  display: none;
-}
-
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   place-content: space-between;
   text-align: center;
 }
@@ -34,12 +27,12 @@ body {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 1 em;
   padding: 0;
 }
 
@@ -47,9 +40,13 @@ section {
   padding: 5em 2em;
 }
 
+.hit {
+  background-image: url("../Images/header-bg.svg");
+  background-size: 100%;
+}
+
 .hero {
   text-align: center;
-  background-image: url("../Images/header-bg.svg");
 }
 
 .mid-col .subhead {
@@ -167,4 +164,40 @@ nav{
     }
 }
 */
+.navbar nav {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar nav .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar nav .left-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.navbar nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
 /*# sourceMappingURL=main.css.map */

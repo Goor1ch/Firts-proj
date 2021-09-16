@@ -179,14 +179,21 @@ nav{
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    
     .right-nav{
         display: flex;
-
+        flex-grow: 1;
+        justify-content: space-evenly;
+        order: 1;
+        
+        
     }
     .left-nav{
         display: flex;
-        order: 1;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        
     }
     .logo{
         display: flex;
@@ -204,7 +211,7 @@ nav{
         .mid-col{
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;        
+            justify-content: space-between;        
             .pic1{
               width: 200% ;
              color: white;
@@ -213,28 +220,17 @@ nav{
         .left-col{
             display: flex;
             order: -1;
-            align-self: flex-start;
+            align-self: center;
             writing-mode: vertical-rl;
         }
         .right-col{
             display: flex;
-            align-self: flex-start;
+            align-self: stretch;
             flex-direction: column;
-            align-content: flex-end;
+            justify-content: space-evenly;
             a{
                 display: flex;
-                
-                .pic1{
-                    
-                }
-                .pic2{
-                   
-                   
-                }
-                .pic3{
-                    
-                    
-                }
+                align-content: space-between;
             }
             
         }

@@ -232,7 +232,37 @@ nav{
                 display: flex;
                 align-content: space-between;
             }
-            
         }
     }
+}
+//расстановка страницы  2
+
+.pg2{
+    .container{
+        display: flex;
+        justify-content: center;
+        .left-col-pg2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 4em;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1em;
+            }
+            .bold{
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+        }
+        .right-col-pg2{
+            
+        }
+        
+
+    }
+
 }

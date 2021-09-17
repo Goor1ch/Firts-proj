@@ -31,16 +31,9 @@ padding: 1em;
     }
 }
 
-a {
-    color: white;
-}
 
-ul{
-    list-style-type: none;
-    margin: 1 em;
-    padding: 0;
-    
-}
+
+
 
 section {
     padding: 5em 2em;
@@ -175,6 +168,9 @@ nav{
 
 //расстановка навигационной панели
 .navbar{
+    a{
+        color: white;
+    }
     nav{
     color: white;
     display: flex;
@@ -304,6 +300,43 @@ nav{
             display: flex;
             flex-direction: column ;
             justify-content: center;
+        }
+    }
+}
+
+//расстановка страницы 5
+
+.pg5{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .container{
+        display: flex;
+        .right-col-pg5{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            h1{
+                font-size: 4em;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 1em;
+            }
+            .bold{
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+        }
+
+    }
+    .bot-pg5{
+        display: flex;
+        justify-content: center;
+        a{
+            margin-left: 1em;
         }
     }
 }

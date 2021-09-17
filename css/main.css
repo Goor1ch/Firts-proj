@@ -26,16 +26,6 @@ body {
   cursor: pointer;
 }
 
-a {
-  color: white;
-}
-
-ul {
-  list-style-type: none;
-  margin: 1 em;
-  padding: 0;
-}
-
 section {
   padding: 5em 2em;
 }
@@ -164,6 +154,10 @@ nav{
     }
 }
 */
+.navbar a {
+  color: white;
+}
+
 .navbar nav {
   color: white;
   display: -webkit-box;
@@ -393,5 +387,64 @@ nav{
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.pg5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pg5 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pg5 .container .right-col-pg5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pg5 .container .right-col-pg5 h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.pg5 .container .right-col-pg5 p {
+  text-align: center;
+  font-size: 1em;
+}
+
+.pg5 .container .right-col-pg5 .bold {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.pg5 .bot-pg5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pg5 .bot-pg5 a {
+  margin-left: 1em;
 }
 /*# sourceMappingURL=main.css.map */

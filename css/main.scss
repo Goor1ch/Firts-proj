@@ -291,3 +291,19 @@ nav{
         }
     }
 }
+
+//расстановка страницы 4
+
+.pg4{
+    p{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        .left-col-pg4{
+            display: flex;
+            flex-direction: column ;
+            justify-content: center;
+        }
+    }
+}

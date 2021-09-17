@@ -258,11 +258,36 @@ nav{
                 font-size: 1.5em;
             }
         }
-        .right-col-pg2{
-            
-        }
-        
-
     }
-
+}
+//расстановка страницы 3
+.pg3{
+    display: flex;
+    flex-direction: column;
+    .head-pg3{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+        .right-col-pg3{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            h1{
+                font-size: 4em;
+                text-align: center;
+                color: white;
+            }
+            p{
+                text-align: center;
+                font-size: 1em;
+            }
+            .bold{
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+        }
+    }
 }

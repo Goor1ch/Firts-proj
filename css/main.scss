@@ -101,7 +101,7 @@ section {
     color: white;
 }
 
-//корректировка "обратной связи"
+//расстановка "обратной связи"
 .contact {
 
     input, textarea {
@@ -337,6 +337,37 @@ nav{
         justify-content: center;
         a{
             margin-left: 1em;
+        }
+    }
+}
+
+//расстановка страницы 6
+
+.pg6{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    nav{
+        .menu{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    .pg6up{
+        font-weight: bold;
+    }
+    .mid-pg6{
+        display: flex;
+        justify-content: space-between;
+        p{
+            font-weight: bold;
+            font-size: 1.5em;
+            text-align: left;
+            .description{
+                font-size: 0.5em;
+                font-weight: 100;
+                color: gray;
+            }
         }
     }
 }

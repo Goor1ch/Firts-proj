@@ -447,4 +447,48 @@ nav{
 .pg5 .bot-pg5 a {
   margin-left: 1em;
 }
+
+.pg6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pg6 nav .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pg6 .pg6up {
+  font-weight: bold;
+}
+
+.pg6 .mid-pg6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pg6 .mid-pg6 p {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.pg6 .mid-pg6 p .description {
+  font-size: 0.5em;
+  font-weight: 100;
+  color: gray;
+}
 /*# sourceMappingURL=main.css.map */

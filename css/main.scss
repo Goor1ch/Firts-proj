@@ -10,7 +10,6 @@ body{
 .navbar {
 color: white;
 padding: 1em;
-
     .logo {
         text-decoration: none;
         
@@ -30,7 +29,10 @@ padding: 1em;
         cursor: pointer;
     }
 }
-
+ .pg1{
+     margin-top: 0;
+     padding: 0;
+ }
 
 
 
@@ -42,7 +44,7 @@ section {
 .hit{
     background-image: url('../Images/header-bg.svg');
     background-size: 100%;
-    
+    background-repeat: no-repeat;
 }
 .hero {
     text-align: center;
@@ -82,6 +84,8 @@ section {
 
 .left-col{
     color: white;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .pg3{
@@ -204,6 +208,7 @@ nav{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        
         .mid-col{
             display: flex;
             flex-direction: column;
@@ -218,12 +223,14 @@ nav{
             order: -1;
             align-self: center;
             writing-mode: vertical-rl;
+            flex-basis: 5%;
         }
         .right-col{
             display: flex;
             align-self: stretch;
             flex-direction: column;
             justify-content: space-evenly;
+            flex-basis: 5%;
             a{
                 display: flex;
                 align-content: space-between;
@@ -371,3 +378,5 @@ nav{
         }
     }
 }
+
+//расстановка страницы 7

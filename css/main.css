@@ -26,6 +26,11 @@ body {
   cursor: pointer;
 }
 
+.pg1 {
+  margin-top: 0;
+  padding: 0;
+}
+
 section {
   padding: 5em 2em;
 }
@@ -33,6 +38,7 @@ section {
 .hit {
   background-image: url("../Images/header-bg.svg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .hero {
@@ -73,6 +79,8 @@ section {
 
 .left-col {
   color: white;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .pg3 {
@@ -250,6 +258,8 @@ nav{
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
 }
 
 .hero .container .right-col {
@@ -265,6 +275,8 @@ nav{
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
 }
 
 .hero .container .right-col a {

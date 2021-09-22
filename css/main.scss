@@ -35,16 +35,14 @@ padding: 1em;
  }
 
 
-
-
 section {
-    padding: 5em 2em;
+    padding: 1.75em 1.75em;
 }
 
 .hit{
     background-image: url('../Images/header-bg.svg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .hero {
     text-align: center;
@@ -88,51 +86,7 @@ section {
     margin-left: 0;
 }
 
-.pg3{
-    background-image: url('/Images/bg-pg3.svg');
-    p{
-        color: white;
-    }
-}
 
-.pg5{
-    background-image: url('/Images/specialty\'s-bg.svg');
-    color: white;
-}
-
-.pg7{
-    background-image: url('/Images/bg-pg3.svg');
-    color: white;
-}
-
-//расстановка "обратной связи"
-.contact {
-
-    input, textarea {
-        width: 100%;
-        border-radius: .3em;
-        padding: .8em;
-        box-sizing: border-box;
-    }
-    .send-message-cta{
-        background: var(--primary-color);
-        color: white;
-        text-decoration: none;
-        padding: .6em 1.3em;
-        font-size: 1.4em;
-        border-radius: 5px;
-        margin-right: 7em;
-        margin-bottom: 1em;
-        border: none;
-        cursor: pointer;
-    }
-}
-
-//корректировка размера карты
-iframe{
-    width: 100%;
-    height: 300px;
-}
 
 /*nav.menu-btn{
     display: block;
@@ -265,6 +219,11 @@ nav{
 }
 //расстановка страницы 3
 .pg3{
+    background-image: url('/Images/bg-pg3.svg');
+    p{
+        color: white;
+    }
+
     display: flex;
     flex-direction: column;
     .head-pg3{
@@ -314,9 +273,12 @@ nav{
 //расстановка страницы 5
 
 .pg5{
+    background-image: url('/Images/specialty\'s-bg.svg');
+    color: white;
     display: flex;
     text-align: center;
     flex-direction: column;
+    
     .container{
         display: flex;
         .right-col-pg5{
@@ -382,6 +344,8 @@ nav{
 //расстановка страницы 7
 
 .pg7{
+    background-image: url('/Images/bg-pg3.svg');
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -409,4 +373,80 @@ nav{
             flex-basis: 25%;
         }
     }
+}
+
+//расстановка "обратной связи"
+.contact {
+    margin-top: 4em;
+    h1{
+        font-size: 3em;
+    }
+    p{
+        margin-bottom: 2em;
+    }
+    /*input, textarea {
+        width: 100%;
+        border-radius: .3em;
+        padding: .8em;
+        box-sizing: border-box;
+    }
+    .send-message-cta{
+        background: var(--primary-color);
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5px;
+        margin-right: 7em;
+        margin-bottom: 1em;
+        border: none;
+        cursor: pointer;
+    }*/
+    .container{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    .contact-form{
+       display: flex;
+       flex-direction: column;
+        .fields-info{
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 0.5em;
+            input{
+                flex-basis: 32.5%;
+            }
+        }
+        textarea{
+            width: 100%;
+        }
+    }
+    .contact-send{
+        display: flex;
+        justify-content: space-around;
+        .adress{
+            font-size: 14px;
+        }
+        .send-message-cta{
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: .6em 1.3em;
+            font-size: 12px;
+            border-radius: 5px;
+            margin-right: 7em;
+            margin-bottom: 1em;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+        margin-bottom: 3em;
+    }
+}
+}
+
+//корректировка размера карты
+iframe{
+    width: 100%;
+    height: 475px;
 }

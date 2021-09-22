@@ -233,30 +233,28 @@
         <section class="contact">
             <div class="container">
                 <h1>Contact</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br>at velit maximus, molestie est a, tempor magna.</p>
                 <div class="contact-form">
                     <form action="">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
 
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <div class="fields-info">
+                        <input type="text" id="name" name="name" value="Name">
 
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input type="email" id="email" name="email" value="Email">
 
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10">Message</textarea>
+                        <input type="tel" id="phone" name="phone" value="Phone">
+                        </div>
 
-                        <p>5th London Boulevard, U.K. +40 729 131 637/+40 726 458 782 office@mindblister.com </p>
-
+                        <textarea class="message" name="message" id="message" cols="30" rows="10">Message</textarea>
+                        
+                        <div class="contact-send">
+                        <p class="adress">5th London Boulevard, U.K. +40 729 131 637/+40 726 458 782 office@mindblister.com </p>
                         <input type="submit" class="send-message-cta" value="Send message">
-
+                        </div>
                     </form>
                 </div>
                 <div class="contact-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12264.0431658869!2d30.5001773!3d39.7843132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9db82db87ed0711f!2sThe%20Hunger!5e0!3m2!1sru!2sru!4v1630841503726!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
                 </div>
             </div>
         </section>

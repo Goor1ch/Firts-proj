@@ -380,3 +380,33 @@ nav{
 }
 
 //расстановка страницы 7
+
+.pg7{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    .mid-pg7{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .callpg7{
+        color: gray;
+        font-size: 0.75em;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        .number{
+            font-weight: bold;
+            color: rgb(187, 187, 187);
+        }
+    }
+    .images-pg7{
+        display: flex;
+        img{
+            flex-basis: 25%;
+        }
+    }
+}

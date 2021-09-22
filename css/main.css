@@ -503,4 +503,53 @@ nav{
   font-weight: 100;
   color: gray;
 }
+
+.pg7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pg7 .mid-pg7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.pg7 .callpg7 {
+  color: gray;
+  font-size: 0.75em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.pg7 .callpg7 .number {
+  font-weight: bold;
+  color: #bbbbbb;
+}
+
+.pg7 .images-pg7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pg7 .images-pg7 img {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
 /*# sourceMappingURL=main.css.map */

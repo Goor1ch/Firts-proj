@@ -93,33 +93,24 @@
                     <div class="uppg4">
                         <h1>Book a table</h1>
                     </div>
-
-                    <div class="midpg4">
-                        <form action="">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name">
-    
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
-    
-                            <label for="phone">Phone</label>
-                            <input type="tel" id="phone" name="phone">
-    
-                            <label for="people">People</label>
-                            <input type="range" id="people" name="people">
-    
-                            <label for="date">Date</label>
-                            <input type="date" id="date" name="date">
-    
-                            <label for="time">Time</label>
-                            <input type="time" id="time" name="time">
+                        <form class="midpg4" action="">
+                            <div class="left-midpg4">
+                                <input type="text" id="name" name="name" value="Name">
+                                <input type="tel" id="phone" name="phone" value="Phone">
+                                <input type="date" id="date" name="date" value="Date">
+                            </div>
+                            <div class="right-midpg4">
+                                <input type="email" id="email" name="email" value="Email">
+                                <div class="people">
+                                    <label for="people">People</label>
+                                    <input type="number" id="people" name="people" value="People" max="8" min="1">  
+                                </div>
+                                <input type="time" id="time" name="time" value="Time">
+                            </div>
                         </form>
-
-                        <div class="downpg4">
-                            <input type="submit" class="book-now-cta" value="Book now">
-                        </div>
+                    <div class="downpg4">
+                        <input type="submit" class="book-now-cta" value="Book now">
                     </div>
-                    
                 </div>
 
                 <div class="right-col-pg4">
